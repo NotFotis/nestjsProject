@@ -1,0 +1,25 @@
+## asdasdasd
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "f.staikos1234127@gmail.com",
+    "password": "asfasfasfasfas"
+}
+
+## asdasdasd111
+GET http://localhost:3000/auth/2
+
+## 
+GET http://localhost:3000/auth?email=f.staikos7@gmail.com
+
+
+DELETE http://localhost:3000/auth/1
+
+
+PATCH http://localhost:3000/auth/2
+Content-Type: application/json
+
+{
+    "email": "f.staikos1@gmail.com"
+}
